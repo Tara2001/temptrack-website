@@ -1,0 +1,133 @@
+html {
+    font-family: 'Montserrat';
+}
+
+.row {
+    height: 100px;
+}
+
+.logo {
+    position: relative;
+    top: 6px;
+    left: 22px;
+}
+
+.col-10 {
+    background-color: #0F64C7;
+}
+
+#logo {
+    margin-top: 27px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+.logo1 {
+    width: 25px;
+    height: 25px;
+}
+
+.space {
+    width: 20px;
+}
+
+.logo2 {
+    padding: 5px;
+    width: 25px;
+    height: 25px;
+    border: 2px solid white;
+    border-radius: 20px;
+}
+
+ul {
+    margin-left: 28px;
+    padding: 25px;
+    width: 150px;
+    height: 100vh;
+    background-color: #CB3622;
+    position: absolute;
+}
+
+.nav-item {
+    padding: 5px 24px;
+}
+
+.img {
+    width: 20px;
+    height: 20px;
+}
+
+.container1 {
+    margin: 0px 180px;
+    width: 70.3%;
+    height: 100vh;
+    background-color: #F1FAFF;
+    position: absolute;
+}
+
+#user {
+    margin-top: 20px;
+    margin-left: 30px;
+    font-size: 25px;
+}
+
+.nav-bar {
+    margin: 0px 30px;
+    height: 100px;
+    border-radius: 20px 20px 0px 0px;
+    background-color: #FFFFFF;
+}
+#row1{
+    margin: 0px 20px;
+}
+#col-6 {
+    padding: 30px 0px;
+}
+
+input[type=text] {
+    width: 140px;
+    box-sizing: border-box;
+    border: 1px solid #F1FAFF;
+    border-radius: 12px;
+    font-size: 15px;
+    background-color: #F1FAFF;
+    background-image: url('Vector\ \(5\).png');
+    background-position: 7px 10px;
+    background-repeat: no-repeat;
+    padding: 8px 15px 8px 35px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+    width: 100%;
+    background-color: #F1FAFF;
+    border: 1px solid #F1FAFF;
+}
+
+.col-2 {
+    text-align: center;
+    padding: 30px;
+}
+
+#btn {
+    width: 125px;
+    height: 40px;
+    font-size: 14px;
+    border: 1px solid #F1FAFF;
+    border-radius: 12px;
+    background-color: #F1FAFF;
+    display: inline-block;
+}
+
+.space1 {
+    width: 2px;
+    display: inline-block;
+}
+
+#img {
+    width: 13px;
+    height: 14px;
+    display: inline-block;
+}

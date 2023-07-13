@@ -1,0 +1,590 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Poppins';
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#a1 {
+    width: 50%;
+    background-color: #F1F3F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    text-align: center;
+}
+
+#img {
+    width: 40%;
+    text-align: center;
+}
+
+#a2 {
+    width: 50%;
+    height: 100%;
+    background-color: #0F64C7;
+}
+
+#form {
+    height: 100%;
+    background-color: #F1FAFF;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.25);
+}
+
+.sign {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign1 {
+    color: #CB3622;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.space {
+    height: 25px;
+}
+
+#mfname {
+    width: 49.5%;
+    justify-content: center;
+    display: inline-block;
+}
+
+#fname {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#bfname {
+    padding: 5px 8px;
+    font-size: 12px;
+    background-color: #F1F3F5;
+    border-radius: 5px;
+}
+
+#mlname {
+    width: 49.5%;
+    justify-content: center;
+    display: inline-block;
+}
+
+#lname {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#blname {
+    padding: 5px 8px;
+    font-size: 12px;
+    background-color: #F1F3F5;
+    border-radius: 5px;
+}
+
+.email {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#form3Example3 {
+    padding: 5px 8px;
+    font-size: 12px;
+    background-color: #F1F3F5;
+    border-radius: 5px;
+}
+
+.password {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#form3Example4 {
+    padding: 5px 8px;
+    font-size: 12px;
+    background-color: #F1F3F5;
+    border-radius: 5px;
+}
+
+#login {
+    padding: 5px 35px;
+    font-size: 18px;
+    background-color: #CB3622;
+    border: 1px solid #CB3622;
+}
+
+#link {
+    color: white;
+    text-decoration: none;
+}
+
+.no-acc {
+    margin: 0px;
+    padding: 0px;
+    font-size: 12px;
+}
+
+@media (min-width : 1200px) {
+    #img {
+        width: 35%;
+    }
+
+    #a2{
+        padding: 5% 3%;
+    }
+
+    #form {
+        padding: 5% 2%;
+    }
+}
+
+@media (min-width : 1025px) and (max-width : 1199px) {
+    #container{
+        max-width: 100%;
+    }
+
+    #img {
+        width: 30%;
+    }
+
+    #a2{
+        padding: 6% 3%;
+    }
+
+    #form {
+        padding: 13% 3%;
+    }
+
+    .sign1 {
+        font-size: 17px;
+    }
+
+    .space {
+        height: 20px;
+    }
+
+    #mfname {
+        width: 100%;
+    }
+
+    #bfname {
+        font-size: 11px;
+    }
+
+    #mlname {
+        width: 100%;
+    }
+
+    #blname {
+        font-size: 11px;
+    }
+
+    #form3Example3 {
+        font-size: 11px;
+    }
+
+    #form3Example4 {
+        font-size: 11px;
+    }
+
+    #login {
+        font-size: 15px;
+    }
+
+    .no-acc {
+        font-size: 11px;
+    }
+}
+
+@media (min-width : 992px) and (max-width : 1024px) {
+    #container{
+        padding: 0% 8%;
+    }
+
+    #img {
+        width: 30%;
+    }
+
+    #a2{
+        padding: 5% 4%;
+    }
+
+    #form {
+        padding: 12% 3%;
+    }
+
+    .sign1 {
+        font-size: 17px;
+    }
+
+    .space {
+        height: 15px;
+    }
+
+    #mfname {
+        width: 100%;
+        font-size: 11px;
+    }
+
+    #mlname {
+        width: 100%;
+        font-size: 11px;
+    }
+
+    #form3Example3 {
+        font-size: 11px;
+    }
+
+    #form3Example4 {
+        font-size: 11px;
+    }
+
+    #login {
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 850px) and (max-width : 991px) {
+    #container {
+        padding: 0% 12%;
+        max-width: 100%;
+    }
+
+    #img {
+        width: 28%;
+    }
+
+    #a2{
+        padding: 8% 4%;
+    }
+
+    #form {
+        padding: 3% 3%;
+    }
+
+    .sign1 {
+        font-size: 15px;
+    }
+
+    #mfname {
+        width: 100%;
+    }
+
+    #fname {
+        font-size: 11px;
+    }
+
+    #bfname {
+        font-size: 10px;
+    }
+
+    #mlname {
+        width: 100%;
+    }
+
+    #lname {
+        font-size: 11px;
+    }
+
+    #blname {
+        font-size: 10px;
+    }
+
+    #email {
+        font-size: 11px;
+    }
+
+    #form3Example3 {
+        font-size: 10px;
+    }
+
+    #password {
+        font-size: 11px;
+    }
+
+    #form3Example4 {
+        font-size: 10px;
+    }
+
+    #login {
+        font-size: 13px;
+    }
+
+    .no-acc {
+        font-size: 10px;
+    }
+}
+
+@media (min-width : 725px) and (max-width : 849px) {
+    #container {
+        padding: 0%;
+        max-width: 100%;
+    }
+
+    #img {
+        width: 28%;
+    }
+
+    #a2{
+        padding: 5% 4%;
+    }
+
+    #form {
+        padding: 8% 3%;
+    }
+
+    .sign1 {
+        font-size: 15px;
+    }
+
+    #mfname {
+        width: 100%;
+    }
+
+    #fname {
+        font-size: 11px;
+    }
+
+    #bfname {
+        font-size: 10px;
+    }
+
+    #mlname {
+        width: 100%;
+    }
+
+    #lname {
+        font-size: 11px;
+    }
+
+    #blname {
+        font-size: 10px;
+    }
+
+    #email {
+        font-size: 11px;
+    }
+
+    #form3Example3 {
+        font-size: 10px;
+    }
+
+    #password {
+        font-size: 11px;
+    }
+
+    #form3Example4 {
+        font-size: 10px;
+    }
+
+    #login {
+        font-size: 13px;
+    }
+
+    .no-acc {
+        font-size: 10px;
+    }
+}
+
+@media (min-width : 575px) and (max-width : 724px){
+    #container{
+        padding: 0%;
+        max-width: 100%;
+        display: inline-block;
+    }
+
+    #a1 {
+        width: 100%;
+        max-width: 100%;
+        background-color: #0F64C7;
+    }
+
+    #img{
+        width: 20%;
+    }
+
+    #a2{
+        padding: 8% 5%;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #form{
+        padding: 6.1% 3%;
+    }
+
+    .sign1{
+        font-size: 17px;
+    }
+    
+    .space{
+        height: 15px;
+    }
+
+    #mfname{
+        width: 100%;
+    }
+
+    #mlname{
+        width: 100%;
+    }
+
+    #login{
+        font-size: 15px;
+    }
+}
+
+@media (min-width : 420px) and (max-width : 574px) {
+    #container{
+        padding: 0%;
+        max-width: 100%;
+        display: inline-block;
+    }
+
+    #a1 {
+        width: 100%;
+        max-width: 100%;
+        background-color: #0F64C7;
+    }
+
+    #img{
+        width: 20%;
+    }
+
+    #a2{
+        padding: 8% 6%;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #form{
+        padding: 3% 2%;
+    }
+
+    .sign1{
+        font-size: 17px;
+    }
+    
+    .space{
+        height: 15px;
+    }
+
+    #mfname{
+        width: 100%;
+    }
+
+    #mlname{
+        width: 100%;
+    }
+
+    #login{
+        font-size: 15px;
+    }
+}
+
+ @media (max-width : 419px) {
+    #container{
+        padding: 0%;
+        max-width: 100%;
+        display: inline-block;
+    }
+
+    #a1 {
+        width: 100%;
+        max-width: 100%;
+        background-color: #0F64C7;
+    }
+
+    #img{
+        width: 30%;
+    }
+
+    #a2{
+        padding: 30% 7%;
+        width: 100%;
+        max-width: 100%;
+    }
+
+    #form{
+        padding: 28% 3%;
+    }
+
+    .sign1{
+        font-size: 15px;
+    }
+    
+    .space{
+        height: 10px;
+    }
+
+    #mfname{
+        width: 100%;
+    }
+
+    #fname{
+        font-size: 12px;
+    }
+
+    #bfname{
+        font-size: 11px;
+    }
+
+    #mlname{
+        width: 100%;
+    }
+
+    #lname{
+        font-size: 12px;
+    }
+
+    #blname{
+        font-size: 11px;
+    }
+
+    #email{
+        font-size: 12px;
+    }
+
+    #form3Example3{
+        font-size: 11px;
+    }
+
+    #password{
+        font-size: 12px;
+    }
+
+    #form3Example4{
+        font-size: 11px;
+    }
+
+    #login{
+        font-size: 14px;
+    }
+
+    .no-acc{
+        font-size: 11px;
+    }
+ }

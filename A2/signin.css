@@ -1,0 +1,545 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-family: 'Poppins';
+}
+
+#row{
+    margin: 0% 8%;
+    height: 100%;
+}
+
+#a1 {
+    background-color: #F1F3F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+}
+
+#img {
+    width: 40%;
+}
+
+#a2 {
+    padding: 5% 3%;
+    height: 100%;
+    background-color: #0F64C7;
+}
+
+.form{
+    height: 100%;
+}
+
+#form {
+    width: 100%;
+    height: 100%;
+    background-color: #F1FAFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.sign {
+    display: flex;
+    flex: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.sign1 {
+    color: #CB3622;
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.space {
+    height: 30px;
+}
+
+.email {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#form3Example3 {
+    padding: 5px 8px;
+    font-size: 15px;
+    background-color: #F1F3F5;
+    border-radius: 5px;
+}
+
+#form3Example3:hover {
+    background-color: white;
+    background-clip: none;
+}
+
+.password {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#form3Example4 {
+    padding: 5px 8px;
+    font-size: 15px;
+    background-color: #F1F3F5;
+    border-radius: 5px;
+}
+
+#form3Example4:hover {
+    background-color: white;
+}
+
+#login {
+    padding: 5px 35px;
+    font-size: 18px;
+    background-color: #CB3622;
+    border: 1px solid #CB3622;
+}
+
+#link {
+    color: white;
+    text-decoration: none;
+}
+
+.no-acc {
+    margin: 3px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+
+@media (min-width : 1200px) {
+    #img {
+        width: 30%;
+        position: absolute;
+        left: 36%;
+    }
+
+    #a2 {
+        padding: 5% 3%;
+    }
+
+    #form {
+        padding: 12% 3%;
+    }
+
+    .space {
+        height: 25px;
+    }
+
+    .sign1 {
+        font-size: 20px;
+    }
+
+    #email {
+        font-size: 15px;
+    }
+
+    #form3Example3 {
+        font-size: 14px;
+    }
+
+    #password {
+        font-size: 15px;
+    }
+
+    #form3Example4 {
+        font-size: 14px;
+    }
+
+    #login {
+        font-size: 17px;
+    }
+
+    .no-acc {
+        font-size: 13px;
+    }
+}
+
+@media (max-width : 1199px) and (min-width : 1025px) {
+    #img {
+        width: 30%;
+        position: absolute;
+        left: 35%;
+    }
+
+    #a2{
+        padding: 7% 3%;
+    }
+
+    #form {
+        padding: 15.6% 3%;
+    }
+
+    .space {
+        height: 35px;
+    }
+
+    .sign1 {
+        font-size: 19px;
+    }
+
+    #email {
+        font-size: 13px;
+    }
+
+    #form3Example3 {
+        font-size: 12px;
+    }
+
+    #password {
+        font-size: 13px;
+    }
+
+    #form3Example4 {
+        font-size: 12px;
+    }
+
+    #login {
+        font-size: 15px;
+    }
+
+    .no-acc {
+        font-size: 12px;
+    }
+}
+
+@media (max-width : 1024px) and (min-width : 992px) {
+    #img {
+        width: 30%;
+        position: absolute;
+        left: 35%;
+    }
+
+    #a2{
+        padding: 6% 4%;
+    }
+
+    #form {
+        padding: 16% 3%;
+    }
+
+    .sign1 {
+        font-size: 17px;
+    }
+
+    #email {
+        font-size: 13px;
+    }
+
+    #form3Example3 {
+        font-size: 12px;
+    }
+
+    #password {
+        font-size: 13px;
+    }
+
+    #form3Example4 {
+        font-size: 12px;
+    }
+
+    #login {
+        font-size: 15px;
+    }
+
+    .no-acc {
+        font-size: 12px;
+    }
+}
+
+@media (min-width : 850px) and (max-width : 991px) {
+    #img {
+        width: 30%;
+        position: absolute;
+        left: 35%;
+    }
+
+    #a2 {
+        padding: 7% 4%;
+    }
+
+    #form {
+        padding: 24% 4%;
+    }
+
+    .space {
+        height: 20px;
+    }
+
+    .sign1 {
+        font-size: 17px;
+    }
+
+    #email {
+        font-size: 13px;
+    }
+
+    #form3Example3 {
+        font-size: 12px;
+    }
+
+    #password {
+        font-size: 13px;
+    }
+
+    #form3Example4 {
+        font-size: 12px;
+    }
+
+    #login {
+        font-size: 15px;
+    }
+
+    .no-acc {
+        font-size: 12px;
+    }
+}
+
+@media (min-width : 768px) and (max-width : 849px) {
+    #a2 {
+        padding: 10% 4%;
+    }
+
+    #img {
+        width: 30%;
+        position: absolute;
+        left: 35%;
+    }
+
+    #form {
+        padding: 25% 4%;
+    }
+
+    .space {
+        height: 20px;
+    }
+
+    .sign1 {
+        font-size: 17px;
+    }
+
+    #email {
+        font-size: 13px;
+    }
+
+    #form3Example3 {
+        font-size: 12px;
+    }
+
+    #password {
+        font-size: 13px;
+    }
+
+    #form3Example4 {
+        font-size: 12px;
+    }
+
+    #login {
+        font-size: 15px;
+    }
+
+    .no-acc {
+        font-size: 12px;
+    }
+}
+
+@media (min-width : 575px) and (max-width : 767px) {
+    #container {
+        padding: 0% ;
+        max-width: 100%;
+    }
+
+    #row{
+        margin: 0%;
+    }
+
+    #a1{
+        width: 100%;
+        background-color: #0F64C7;
+    }
+
+    .img{
+        text-align: center;
+    }
+
+    #img {
+        width: 22%;
+    }
+
+    #a2 {
+        width: 100%;
+        padding: 10% 6%;
+    }
+
+    #form {
+        padding: 17% 3%;
+    }
+
+    .space {
+        height: 15px;
+    }
+
+    .sign1 {
+        font-size: 17px;
+    }
+
+    #email {
+        font-size: 13px;
+    }
+
+    #form3Example3 {
+        font-size: 12px;
+    }
+
+    #password {
+        font-size: 13px;
+    }
+
+    #form3Example4 {
+        font-size: 12px;
+    }
+
+    #login {
+        font-size: 15px;
+    }
+
+    .no-acc {
+        font-size: 12px;
+    }
+}
+
+@media (min-width : 420px) and (max-width : 574px) {
+    #container {
+        padding: 0%;
+    }
+
+    #row{
+        margin: 0%;
+    }
+
+    #a1{
+        background-color: #0F64C7;
+    }
+
+    .img{
+        text-align: center;
+    }
+
+    #img {
+        width: 22%;
+    }
+
+    #a2 {
+        padding: 10% 6%;
+        width: 100%;
+    }
+
+    #form {
+        padding: 14% 3%;
+    }
+
+    .space{
+        height: 15px;
+    }
+
+    .sign1{
+        font-size: 17px;
+    }
+
+    #email{
+        font-size: 13px;
+    }
+
+    #form3Example3{
+        font-size: 12px;
+    }
+
+    #password{
+        font-size: 13px;
+    }
+
+    #form3Example4{
+        font-size: 12px;
+    }
+
+    #login{
+        font-size: 15px;
+    }
+
+    .no-acc{
+        font-size: 12px;
+    }
+}
+
+@media (max-width : 419px) {
+    #container{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    #row{
+        margin: 0%;
+    }
+
+    #a1{
+        background-color: #0F64C7;
+    }
+
+    .img{
+        text-align: center;
+    }
+
+    #img{
+        width: 35%;
+    }
+
+    #a2{
+        width: 100%;
+        padding: 16% 7%;
+    }
+
+    #form{
+        padding: 20% 3%;
+    }
+
+    .sign1{
+        font-size: 16px;
+    }
+
+    .space{
+        height: 15px;
+    }
+
+    #email{
+        font-size: 12px;
+    }
+
+    #form3Example3{
+        font-size: 11px;
+    }
+
+    #password{
+        font-size: 12px;
+    }
+
+    #form3Example4{
+        font-size: 11px;
+    }
+
+    #login{
+        font-size: 14px;
+    }
+
+    .no-acc{
+        font-size: 11px;
+    }
+}
